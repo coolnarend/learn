@@ -31,4 +31,29 @@ Built a **Personal Profile App** in `main.py` that:
 - Completed basic syntax and data type practice.
 - Completed one interactive console exercise.
 - Ready to continue with Day 2 topics (loops and functions).
-"# Python Learning" 
+
+## Day 2 Activities - Operators, Conditions and Loops
+
+Day 2 focused on control flow and practical user input handling.
+
+### Topics Practiced
+
+- Arithmetic operators (`+`, `-`, `*`, `/`, `//`, `%`, `**`)
+- Conditional branching with `if`, `elif`, `else`
+- Looping with `for` and `while`
+- Input validation with retry logic for numeric ranges
+
+### Hands-On Practice
+
+- Built score-based grading logic.
+- Added validation so score input must be between 0 and 100.
+- Practiced even/odd number checking.
+- Built a mini menu program with:
+	- Simple calculator
+	- Grade calculator
+
+### Day 2 Outcome
+
+- Better understanding of control flow in Python.
+- Improved confidence in handling user input safely.
+- Ready to move into Day 3 topics.
