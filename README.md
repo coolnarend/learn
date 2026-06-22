@@ -57,3 +57,38 @@ Day 2 focused on control flow and practical user input handling.
 - Better understanding of control flow in Python.
 - Improved confidence in handling user input safely.
 - Ready to move into Day 3 topics.
+
+## Day 3 Activities - Functions, Lists and Dictionaries
+
+Day 3 focused on writing reusable logic and working with common collection types.
+
+### Topics Practiced
+
+- Creating and calling functions
+- Returning values from functions
+- Conditional return logic (`if`/`else`)
+- List creation, indexing, update, and looping
+- Dictionary creation, read, add, and update operations
+
+### Hands-On Exercise
+
+Built a **Student Grade Manager** in `day3.py` that:
+
+- Accepts student name and number of subjects
+- Collects marks using a loop
+- Calculates average using a function
+- Assigns grade using conditional rules
+- Prints a formatted student report
+
+### Key Learning Notes
+
+- Functions make code easier to test and reuse.
+- Lists are useful for collecting repeated input values.
+- Dictionaries help store structured profile-style data.
+- Splitting logic into helper functions improves readability.
+
+### Day 3 Outcome
+
+- Improved confidence with function-based program structure.
+- Better understanding of list and dictionary operations.
+- Completed an interactive mini project using Day 3 concepts.
