@@ -9,12 +9,16 @@ print("=== Day 3: Functions, Lists & Dictionaries ===\n")
 
 print("1. FUNCTIONS")
 
+# Functions are reusable blocks of code that perform a specific task.
+# You define once, then call many times with different inputs.
 def greet(name):
     print(f"Hello {name}! Welcome to Day 3.")
 
+# This is a small helper function: one clear job (add two numbers) and return the result.
 def add_numbers(a, b):
     return a + b
 
+# Helper functions also make decision logic easier to read and test.
 def is_adult(age):
     if age >= 18:
         return True
@@ -52,6 +56,8 @@ for fruit in fruits:
 # ====================== 3. DICTIONARIES ======================
 print("\n3. DICTIONARIES")
 
+# A dictionary stores structured data as key-value pairs.
+# It is useful when related values should stay grouped under labels.
 person = {
     "name": "Narendra",
     "age": 40,
@@ -76,9 +82,11 @@ print("\n" + "="*50)
 print("DAY 3 EXERCISE: Student Grade Manager")
 print("="*50)
 
+# Helper function: keeps average logic separate from input/output code.
 def calculate_average(marks):
     return sum(marks) / len(marks)
 
+# Helper function: converts a numeric average into a readable grade.
 def get_grade(avg):
     if avg >= 90:
         return "A - Excellent"
@@ -89,7 +97,7 @@ def get_grade(avg):
     else:
         return "F - Need Improvement"
     
-# Main program
+# Main program flow: collect input, process with helper functions, then print report.
 student_name = input("Enter Student Name: ")
 num_subjects = int(input("Enter number of subjects: "))
 
